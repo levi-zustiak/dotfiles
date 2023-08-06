@@ -1,3 +1,9 @@
+local map = vim.api.nvim_set_keymap
+
+map("i", "kj", "<ESC>", { noremap = true, silent = false });
+map("v", "kj", "<ESC>", { noremap = true, silent = false });
+
+vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -11,5 +17,3 @@ vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<leader>f", function()
     vim.lsp.buf.format()
 end)
-
-

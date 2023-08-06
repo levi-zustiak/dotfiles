@@ -129,10 +129,10 @@ _G.packer_plugins = {
     path = "/home/zus/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["nightfox.nvim"] = {
+  ["null-ls.nvim"] = {
     loaded = true,
-    path = "/home/zus/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
+    path = "/home/zus/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -154,11 +154,6 @@ _G.packer_plugins = {
     path = "/home/zus/.local/share/nvim/site/pack/packer/start/nvim-tundra",
     url = "https://github.com/sam4llis/nvim-tundra"
   },
-  ["onedarkpro.nvim"] = {
-    loaded = true,
-    path = "/home/zus/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
-    url = "https://github.com/olimorris/onedarkpro.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/zus/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -173,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/zus/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/zus/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-fugitive"] = {
     loaded = true,

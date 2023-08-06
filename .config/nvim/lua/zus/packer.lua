@@ -8,18 +8,22 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- Color schemes
-  use "olimorris/onedarkpro.nvim"
-  use "EdenEast/nightfox.nvim"
   use "sam4llis/nvim-tundra"
-  use "tpope/vim-fugitive"
+  use "folke/tokyonight.nvim"
 
   -- Plugins
   use "theprimeagen/harpoon"
+  use "tpope/vim-fugitive"
 
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.0',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
+  }
+
+  use {
+    "jose-elias-alvarez/null-ls.nvim",
+    requires = { "nvim-lua/plenary.nvim" },
   }
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
